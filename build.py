@@ -88,9 +88,9 @@ STORES = [('App Store', 'iPhone and iPad'), ('Mac App Store', 'Mac'), ('Google P
 lands = '\n'.join(f'        <li><span class="n">{i + 1}</span><div><b>{n}</b><span>{ref} &middot; {boss}</span></div></li>' for i, (n, ref, boss) in enumerate(LANDS))
 minis = '\n'.join(f'        <li>{m}</li>' for m in MINIS)
 shots = '\n'.join(f'''        <figure><img src="assets/img/{f}.webp" alt="{c}" width="768" height="672" loading="lazy"><figcaption>{c}</figcaption></figure>''' for f, c in SHOTS)
-# When a store link is live, replace that store's <span class="soon"> with <a class="btn" href="...">GET IT</a>
+# When a store link is live, replace that store's <span class="soon"> with <a class="btn" href="...">Get it</a>
 # and the QR placeholder's text with <img src="assets/img/qr-<store>.png" alt="QR code for the <store>">.
-stores = '\n'.join(f'''        <div class="store"><h3>{s}</h3><p>{d}</p><span class="soon">COMING SOON</span><div class="qr" aria-hidden="true">QR CODE<br>COMING SOON</div></div>''' for s, d in STORES)
+stores = '\n'.join(f'''        <div class="store"><h3>{s}</h3><p>{d}</p><span class="soon">Coming soon</span><div class="qr" aria-hidden="true">QR code<br>coming soon</div></div>''' for s, d in STORES)
 
 page('index.html', 'Home', 'An 8-bit Bible adventure from Eden to Revelation: ten dungeons, ten bosses, fourteen mini-games and the new earth. For iPhone, iPad, Mac, Android and Windows.', f'''
 <section class="hero">
@@ -100,8 +100,8 @@ page('index.html', 'Home', 'An 8-bit Bible adventure from Eden to Revelation: te
       <h1>DOMINION RESTORED</h1>
       <p class="lede">Journey through the whole story of Scripture, from the Garden of Eden to the book of Revelation, in a classic action adventure made for the whole family.</p>
       <div class="btns">
-        <a class="btn" href="#get">GET THE GAME</a>
-        <a class="btn ghost" href="#gallery">SEE IT IN ACTION</a>
+        <a class="btn" href="#get">Get the game</a>
+        <a class="btn ghost" href="#gallery">See it in action</a>
       </div>
     </div>
     <div class="frame"><img src="assets/img/title.webp" alt="The Dominion Restored title screen" width="768" height="672"></div>
@@ -299,8 +299,8 @@ page('about.html', 'About', f'About {COMPANY}, the publisher of Dominion Restore
 
   <h2>Why Dominion Restored</h2>
   <p>In the beginning, God gave mankind dominion over the earth. It was lost in the garden, and the rest of Scripture tells how it is won back. Dominion Restored follows that story from Genesis to Revelation, through the lands, battles and promises of the Bible, and ends where the Bible ends: with all things made new.</p>
-  <blockquote class="verse">"And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth."<cite>GENESIS 1:28</cite></blockquote>
-  <blockquote class="verse">"And hast made us unto our God kings and priests: and we shall reign on the earth."<cite>REVELATION 5:10</cite></blockquote>
+  <blockquote class="verse">"And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth."<cite>Genesis 1:28</cite></blockquote>
+  <blockquote class="verse">"And hast made us unto our God kings and priests: and we shall reign on the earth."<cite>Revelation 5:10</cite></blockquote>
 
   <h2>What we believe a game should be</h2>
   <ul>
@@ -321,7 +321,7 @@ page('privacy.html', 'Privacy Policy', 'The Dominion Restored privacy policy: th
 <div class="wrap">
   <p class="kicker">Legal</p>
   <h1>Privacy policy</h1>
-  <p class="updated">EFFECTIVE OCTOBER 14, 2026</p>
+  <p class="updated">Effective October 14, 2026</p>
 
   <div class="summary"><p><strong>In short:</strong> Dominion Restored does not collect, store, share or sell any personal information. It has no accounts, no ads, no analytics and no tracking, and it never sends anything over the internet. Your progress is saved only on your own device.</p></div>
 
