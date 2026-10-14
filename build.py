@@ -130,7 +130,7 @@ page('index.html', 'Home', 'An 8-bit Bible adventure from Eden to Revelation: te
     <div class="grid g3">
       <div class="card"><div class="ico">10</div><h3>Dungeons and bosses</h3><p>Locked doors, keys, treasure rooms and a boss in every land, each fought the way the story tells it.</p></div>
       <div class="card"><div class="ico">14</div><h3>Mini-games</h3><p>Circus tents across the world hold a game from each story, open from the start. Replay them any time from the Arcade.</p></div>
-      <div class="card"><div class="ico">KJV</div><h3>Scripture throughout</h3><p>Signs, treasures and battles carry verses from the King James Bible, so the story is told in its own words.</p></div>
+      <div class="card"><div class="ico">&#10013;</div><h3>Scripture throughout</h3><p>Signs, treasures and battles carry verses from the Bible, so the story is told in its own words.</p></div>
       <div class="card"><div class="ico">2D/3D</div><h3>Two ways to see it</h3><p>Play in classic 8-bit 2D, or switch to a 3D diorama of the same pixel art at any time.</p></div>
       <div class="card"><div class="ico">+</div><h3>Weapons of the faith</h3><p>The Flaming Sword, the Dove, the Rod of Moses, the Shofar, David's sling, the Shield of Faith, the Armor of Light and more.</p></div>
       <div class="card"><div class="ico">&#9733;</div><h3>The new earth</h3><p>Beyond the final battle lies a world made new, full of saints, angels and friendly animals. We'll let you discover it.</p></div>
@@ -205,7 +205,6 @@ FAQ = [
         ('Which devices can I play on?', '<p>iPhone, iPad, Mac, Android phones and tablets, and Windows PCs. See <a href="index.html#get">Get the game</a> for the stores.</p>'),
         ('Are there ads, in-app purchases or subscriptions?', '<p>No. You buy the game once and everything in it is yours. There are no ads, no in-app purchases and no subscriptions.</p>'),
         ('Is it suitable for children?', '<p>It is made for families. The combat is classic 8-bit action against creatures and Bible-story foes, with no gore. Enemies simply vanish when defeated. Check the age rating shown on your store for the official rating, and as always, parents know their children best.</p>'),
-        ('Which Bible translation does the game quote?', '<p>The King James Version.</p>'),
         ('Does it need an internet connection?', '<p>No. Once installed, it plays completely offline.</p>'),
         ('Is there anything after the final battle?', '<p>Yes. We will let you discover it.</p>'),
     ]),
@@ -306,7 +305,7 @@ page('about.html', 'About', f'About {COMPANY}, the publisher of Dominion Restore
   <ul>
     <li><b>Something to share.</b> Made so parents, children and grandparents can all enjoy it together.</li>
     <li><b>Honest.</b> One purchase, no ads, no in-app purchases, and no data collected.</li>
-    <li><b>True to the story.</b> Scripture quoted in its own words, from the King James Version.</li>
+    <li><b>True to the story.</b> Scripture quoted in its own words.</li>
   </ul>
 
   <h2>Contact</h2>
