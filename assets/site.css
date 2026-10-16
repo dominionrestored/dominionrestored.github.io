@@ -48,6 +48,7 @@ h3 { font-size: 19px; margin: 0 0 6px; color: var(--gold); }
 .dim { color: var(--dim); }
 .verse { font-style: italic; color: var(--dim); border-left: 4px solid var(--gold); padding: 4px 0 4px 16px; margin: 20px 0; }
 .verse cite { display: block; font-style: normal; font: 700 14px/1.4 var(--read); letter-spacing: 1px; color: var(--faint); margin-top: 6px; }
+.copyright { font-size: 14px; color: var(--faint); margin: -8px 0 20px; }
 
 /* sections */
 section { padding: 72px 0; }

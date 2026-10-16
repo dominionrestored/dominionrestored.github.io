@@ -300,6 +300,7 @@ page('about.html', 'About', f'About {COMPANY}, the publisher of Dominion Restore
   <p>In the beginning, God gave mankind dominion over the earth. It was lost in the garden, and the rest of Scripture tells how it is won back. Dominion Restored follows that story from Genesis to Revelation, through the lands, battles and promises of the Bible, and ends where the Bible ends: with all things made new.</p>
   <blockquote class="verse">"And God blessed them. And God said to them, 'Be fruitful and multiply and fill the earth and subdue it, and have dominion over the fish of the sea and over the birds of the heavens and over every living thing that moves on the earth.'"<cite>Genesis 1:28 (ESV)</cite></blockquote>
   <blockquote class="verse">"And you have made them a kingdom and priests to our God, and they shall reign on the earth."<cite>Revelation 5:10 (ESV)</cite></blockquote>
+  <p class="copyright">Scripture quotations are from the ESV&reg; Bible (The Holy Bible, English Standard Version&reg;), &copy; 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.</p>
 
   <h2>What we believe a game should be</h2>
   <ul>
